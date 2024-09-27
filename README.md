@@ -1,6 +1,6 @@
 
 # Laboratorio I-2024
-## <sup>Asignatura: Patrones de Software y Programación </sup> <br><sup>Profesor: Daniel San Martín</sup> <br> <sup> Nombre Estudiante:</sup>
+## <sup>Asignatura: Patrones de Software y Programación </sup> <br><sup>Profesor: Daniel San Martín</sup> <br> <sup> Nombre Estudiante: Rodrigo Vega V.</sup>
 <hr>
 Dado el enunciado a continuación, implemente el patrón de diseño que usted considere necesario
 para dar solución al requerimiento. Además, explique porqué escogió el patrón, cual es su característica

@@ -1,13 +1,13 @@
 package cl.ucn.modelo;
 
+import cl.ucn.interfaz.RecursosMultimediaInterface;
 import jakarta.persistence.*;
 
 import java.util.List;
 
 @Entity
 @Table(name="recursos")
-public class RecursosMultimedia {
-
+public class RecursosMultimedia implements RecursosMultimediaInterface {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -20,10 +20,6 @@ public class RecursosMultimedia {
     public void cargar() {
         // Simula la carga de un archivo grande en memoria
         System.out.println("Cargando el archivo: " + nombre + " (" + tipo + ")");
-    }
-
-    public void mostrar() {
-        System.out.println("Mostrando el archivo: " + nombre + " (" + tipo + ")");
     }
 
     public String getNombre() {
@@ -48,5 +44,9 @@ public class RecursosMultimedia {
 
     public void setProtegido(boolean protegido) {
         this.protegido = protegido;
+    }
+
+    public void mostrar(Usuario usuario) {
+        System.out.println("Mostrando el archivo: " + nombre + " (" + tipo + ")");
     }
 }
