@@ -34,7 +34,8 @@ los permisos o no, de acuerdo al archivo asignado por defecto.
 <hr>
 
 ## Explicación
-(Escriba aquí su explicación)
+El patron Adapter, patron estructural, permite desacoplar el codigo del cliente con las implementaciones especificas de cada base de datos, generando asi, una responsabilidad unica de cada clase.
+El patron Proxy, nos da una forma de proteger los recursos y nos ayuda a cumplir con el principio de abierto y cerrado, al poder introducir nuevos proxies.
 
 
 <hr>

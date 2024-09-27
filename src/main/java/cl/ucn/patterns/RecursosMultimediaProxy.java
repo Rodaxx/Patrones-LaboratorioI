@@ -13,6 +13,7 @@ public class RecursosMultimediaProxy implements RecursosMultimediaInterface {
     }
 
     // El proxy controla el acceso y luego llama al recurso real
+    // TODO: Utilizar checkAccess()
     @Override
     public void mostrar(Usuario usuario) {
         if (recursoReal.isProtegido()) {
